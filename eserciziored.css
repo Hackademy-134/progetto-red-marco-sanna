@@ -1,0 +1,52 @@
+body{
+
+    margin: 0;
+
+
+}
+
+
+
+.immagine{
+
+    width: 120px;
+
+    height: 80px;
+
+
+}
+
+.navbar-bar{
+width: 100%;
+
+
+
+
+}
+
+.bg-header{
+
+    height: 100vh;
+
+    background: linear-gradient(rgb(255,255,255),rgba(255,255,255,0)), url(./switzerland-862870_1920.jpg) ;
+
+    background-size: 1920px 800px;
+
+    
+    
+
+}
+
+
+
+
+.mountain-img{
+
+
+background: linear-gradient(rgb(255,255,255),rgba(255,255,255,0)),url(mountains2.png);
+
+
+
+
+ 
+}

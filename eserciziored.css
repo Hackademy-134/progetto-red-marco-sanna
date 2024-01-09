@@ -5,6 +5,18 @@ body{
 
 }
 
+.font-secondary{
+    
+    
+    font-family: 'Nova Square', sans-serif;
+
+    font-size:larger;
+
+    width: auto;
+    
+    
+}
+
 
 
 .immagine{
@@ -30,13 +42,21 @@ width: 100%;
 
     background: linear-gradient(rgb(255,255,255),rgba(255,255,255,0)), url(./switzerland-862870_1920.jpg) ;
 
-    background-size: 1920px 800px;
+    margin-bottom: 500px;
+
+    z-index: -1;
 
     
     
 
 }
 
+.titolo-head{
+
+    list-style-type:none;
+
+
+}
 
 
 
@@ -49,4 +69,24 @@ background: linear-gradient(rgb(255,255,255),rgba(255,255,255,0)),url(mountains2
 
 
  
+}
+
+.testo-lorem{
+
+
+    margin-top: 200px;
+
+ 
+
+}
+
+.img-wt{
+background: fixed;
+max-width: max-content;
+margin-top: 200px;
+margin-right: 2000px;
+padding: 0%;
+
+
+
 }

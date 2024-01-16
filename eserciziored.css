@@ -5,10 +5,10 @@ body{
     
 }
 main{
-
-    background-color: rgb(230,230,230);
-
-
+    
+    background-color: rgb(236,236,236);
+    
+    
 }
 
 
@@ -26,7 +26,7 @@ main{
     
     font-family: 'Nova Square', sans-serif;
     
-
+    
     
     width: auto;
     
@@ -34,16 +34,16 @@ main{
 }
 
 .titolo{
-
-
+    
+    
     
     font-size: 100px;
-
-    color: darkred;
-
     
-  
-
+    color: darkred;
+    
+    
+    
+    
     
     
 }
@@ -61,7 +61,7 @@ main{
     
     
     
-  
+    
 }
 
 .sfondo{
@@ -82,12 +82,12 @@ main{
     background-size: cover;
     
     padding: 0% ;
-
+    
     position: relative;
     
-  
-
-
+    
+    
+    
     
     
     
@@ -125,11 +125,11 @@ main{
 
 .img-wt{
     
-  position: absolute;
-
-  bottom: 0;
-
-  left: 0;
+    position: absolute;
+    
+    bottom: 0;
+    
+    left: 0;
     
     
     width: 100%;
@@ -138,188 +138,458 @@ main{
 
 
 .paragrafo-a::before{
-
-
+    
+    
     content: open-quote;
-
+    
     font-size: x-large;
-
+    
     color: darkred;
-
-
-
+    
+    
+    
     left: 400px;
-
+    
     bottom: 1px;
-
-  
-
- 
-
-
+    
+    
+    
+    
+    
+    
 }
 
 
 .paragrafo-a::after{
-
-
+    
+    
     content: close-quote;
-
+    
     font-size: x-large;
-
+    
     color: darkred;
-
-
-
-
-
-   right: 400px;
-
-  
-
-  
-
- 
-
-
+    
+    
+    
+    
+    
+    right: 400px;
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 
 .second-s{
-
-height: 60vh;
-
-
+    
+    height: 60vh;
+    
+    
 }
 
 .icona{
-
-   font-size: 50px;
-
-   color: darkred;
-
-
+    
+    font-size: 50px;
+    
+    color: darkred;
+    
+    
 }
 
 .linea-sotto{
-
+    
     width: 190px;
-
+    
     border-bottom: solid 3px darkred;
-
+    
     position: relative;
-
-
-
+    
+    
+    
 }
 
 
 
 .linea-sotto ::after{
-
-
+    
+    
     position: absolute;
     
     content: "";
     
-
+    
     width: 20px;
-
+    
     height: 20px;
-
+    
     border-radius: 50%;
-
+    
     right: 83px;
-
+    
     top: 113px;
-
+    
     border: solid 2px darkred;
-
-background-color: white;
-
-
+    
+    background-color: white;
+    
+    
 }
 
 .testi-2{
-
+    
     padding-right: 0;
-
+    
     
     display: flex;
-
-   justify-content: space-around;
-
-
-
+    
+    justify-content: space-around;
+    
+    
+    
 }
 
 
 .higher3{
-
+    
     display: flex;
-
-
+    
+    
     justify-content: flex-end;
-
-
-
-  
-
-
+    
+    
+    
+    
+    
+    
 }
 
 
 .titolino{
-
+    
     
     color: darkred;
-
-
+    
+    
 }
 
 
 .bottone1{
-
-
+    
+    
     border: 0;
-
+    
     width: 200px;
-
+    
     height: 50px;
-
+    
     bottom: 10px;
-
+    
     background-color: darkred;
     
     color: white;
-
-
-
-}
-
-
-.divino{
-
-
-    height: 40vh;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
+    
+    
+    
+    
+    
 }
 
 .immagine-alberi{
-
-
-    height: 100vh;
-
+    
     display: flex;
+    
+    align-items:last baseline;
+    
+    
+    position: absolute;
+    
+    left: 0;
+    
+    
+    
+    margin-top: 0;
+    
+    
+    
+    width: 100%;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
 
-    align-items: center;
+
+.div-genitore{
+    
+    height: 70vh;
+    
+    
+    
+    background-image: url(trees2.png);
+
+    background-repeat: repeat;
+
+    background-position: bottom;
+    
+    
+    
+    
+}
+
+.divano{
+    
+    
+    height: 70vh;
+    
+}
+
+.ciciolina{
+    
+    background-color: white;
+    
+    width: 100%;
+    
+    background-image: url(single.png);
+    
+    background-repeat: no-repeat;
+    
+    background-position: bottom right;
+    
+    
+    
+    
+}
+
+
+
+.our-tl{
+    
+    color: darkred;
+    
+    font-size: 30px;
+    
+    
+}
+
+
+.h3-lorem {
+    
+    
+    color: darkred;
+    
+}
+.linea-affianco{
+    
+    position: relative;
+    
 
     
+    
+    border-left: solid 2px darkred;
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+.linea-affianco::before{
+    
+    position: absolute;
+    
+    content: "";
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    
+    left: -11px;
+    
+    
+    border: solid 2px darkred;
+    
+    background-color: white;
+    
+    
+    border-radius: 50%;
+    
+    
+    
+    
+    
+}
+
+
+.testo-modificare{
+    
+    
+    
+    
+    width: 100%;
+    
+    
+    
+}
+
+
+.albero-grigio{
+    
+    display: flex;
+    
+    justify-content: right;
+    
+    
+    
+}
+
+
+
+
+
+.divario{
+    
+    
+    height: 100vh;
+    
+    
+}
+
+.random{
+    
+    height: 100vh;
+    
+}
+
+
+.ultimo{
+    height: 180vh;
+
+    
+    background-image: url(other.png);
+    
+    background-repeat: no-repeat;
+
+    background-position:bottom;
+    
+   
+    
+    
+}
+
+.team{
+    margin-left: 60px;
+    margin-top:20px;
+    
+    color: darkred;
+}
+
+.carte{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px darkred;
+    padding: 4px;
+    
+}
+
+.lory{
+    
+    color: darkred;
+    
+}
+
+.iconeFamose{
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    color: darkred;
+    
+}
+
+.montagnine{
+    
+    width: 150px;
+    
+    height: 150px;
+    
+    border-radius: 50%;
+    
+    border: solid 2px darkred;
+    
+    padding: 4px;
+    
+    
+    
+    
+    
+}
+
+
+.paragrafo3{
+    
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+
+.piedino{
+
+    height: 50vh;
+
+    
+
+     background-color: darkred; 
+
+}
+
+.ultimoDiv{
+
+color: white;
+
+}
+
+.stileLista{
+   
+
+
+    
+   
+
+
+}
+
+.listina{
+
+    text-decoration: none;
+
+    color: white;
+    
+   
 
 }
